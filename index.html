@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <style>
+        /* Defined the Vinyl George font using @font-face */
+        @font-face {
+            font-family: 'Vinyl George';
+            src: url('Vinyl_George.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /* Applied Helvetica font to the body */
+        body {
+            font-family: Helvetica, sans-serif; /* Used Helvetica for body text */
+            font-size: 18px; /* The Default font size for body text */
+            text-align: center;
+            background-color: #adadad;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh; /* Ensured body covers full viewport height */
+            display: flex; /* Enabledflexbox layout */
+            flex-direction: column; /* Aligned children in a column */
+            justify-content: space-between; /* Spaced out children with space between */
+        }
+
+        /* Apply Vinyl George font to the h1 element */
+        h1 {
+            font-family: 'Vinyl George', sans-serif; /* Used Vinyl George for the h1 element */
+            font-size: 36px; /* For Example: 36 pixels */
+            margin: 20px 0; /* Added some margin for spacing */
+        }
+
+        /* Main content styling */
+        .content {
+            flex-grow: 1; /* Ensured content takes up remaining space */
+        }
+
+        /* Footer styling */
+        footer {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            font-family: Helvetica, sans-serif; /* Ensured footer uses Helvetica */
+            font-size: 14px; /* The Smaller font size for footer text */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Hello World</h1>
+        <p>Welcome to my website! I created this page as a part of my class assignment!</p>
+
+        <img src="AndreaCarroll_ReLMayerCosplay.JPG" alt="Yes, this is actually me in a Re-L Mayer cosplay from Ergo Proxy." style="width:300px; height:auto;">
+        
+        <p>Please come take a look at my <a href="another-page.html">other page</a>!</p>
+    </div>
+
+    <footer>
+        © 2024 Created by Andrea Carroll
+    </footer>
+</body>
+</html>
